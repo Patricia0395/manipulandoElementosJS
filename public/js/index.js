@@ -24,7 +24,7 @@ if(nombre){
  responde && document.body.classList.add('fondo')
 
  p.forEach((parrafo, index) =>{
- index % 2 == 0 ? parrafo.classList.add('destacadosPar') : parrafo,classList.add('destacadosImpar')
+ index % 2 == 0 ? parrafo.classList.add('descatadoPar') : parrafo.classList.add('destacadoImpar')
  })
 
  main.style.display = 'block'
